@@ -1,7 +1,7 @@
 button
 ======
 
-Go language support of Dream Cheeky's Big Read Button (http://dreamcheeky.com/big-red-button).
+Go language support of Dream Cheeky's Big Read Button (http://dreamcheeky.com/big-red-button).  This is worse than Alpha :-)
 
 You need a udev rule to access this device.  Add this file:
 ```
@@ -14,7 +14,8 @@ ACTION=="add", ENV{ID_MODEL}=="DL100B_Dream_Cheeky_Generic_Controller", SYMLINK+
 ACTION=="remove", ENV{ID_MODEL}=="DL100B_Dream_Cheeky_Generic_Controller"
 ```
 
-
 I learned how to do this from [this page](http://blog.opensensors.io/blog/2013/11/25/the-big-red-button/)
 
-I'm heavily tweaking this file so it may be in any state.  I'm using Github primarily for backup but if this helps you then great!
+I'm heavily tweaking this file so it may be in any state.  I'm using Github primarily for backup but if this helps you then great!  Note that reading the button state seems to lock up after a short while so it's not ready for prime time yet.  Constructive comments welcome!
+
+

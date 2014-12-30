@@ -92,7 +92,7 @@ func main() {
 			}
 			prior = current
 		}
-		time.Sleep(100 * time.Millisecond)
+		time.Sleep(500 * time.Millisecond)
 	}
 
 }
