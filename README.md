@@ -1,7 +1,7 @@
 button
 ======
 
-Go language support of Dream Cheeky's Big Read Button (http://dreamcheeky.com/big-red-button).  This is worse than Alpha :-)
+Go (golang) language support of Dream Cheeky's Big Read Button (http://dreamcheeky.com/big-red-button).  This is not even Alpha :-)
 
 You need a udev rule to access this device.  Add this file:
 ```
